@@ -19,6 +19,9 @@ Lo usa la tarea programada diaria de Claude. Desde el 14-oct-2026 Joel APRUEBA c
 8. Añadir 3 filas a `registro.md`, commit + push.
 9. Enviar a Joel con SendUserMessage un resumen corto para el celular: los 3 temas con hora, hook y fuente, y los enlaces raw de las 3 imágenes. Si algo falló, decir exactamente qué y qué quedó programado.
 
+## Preferencia de Joel (14-oct-2026)
+- Prefiere las imágenes BIEN EXPLICADAS (titular-hook completo, chips de evidencia, preguntas Sí/No o franjas de rangos, gráfico de barras con cifras, «romper la excusa», franja «Lo que ayuda» y pie con límites). NO usar la versión simplificada de «una idea, un número, una acción».
+
 ## Sistema visual (no cambiar)
 - 1080 × 1350 px, fondo blanco. Fuentes: Manrope (texto) + Newsreader (referencias).
 - Paleta: azul marino #102D50, rojo #E92724 (datos/riesgo), amarillo #FFD200 (acento puntual), gris #667085, blanco. Verde solo para beneficio/protección ("Lo que ayuda").
