@@ -1,7 +1,7 @@
 # Producción diaria automática — Dr. Joel Viera
 
 Este repositorio es público: aloja las imágenes que Metricool descarga para publicar en Facebook e Instagram.
-Lo usa la tarea programada diaria de Claude. Joel NO revisa antes de publicar: todo debe salir listo y correcto.
+Lo usa la tarea programada diaria de Claude. Desde el 14-oct-2026 Joel APRUEBA cada imagen antes de publicarla: se programan como borrador (draft true) y solo se publican cuando él responde que sí.
 
 ## Flujo diario (en este orden)
 1. Clonar el repo, ejecutar `./kit/setup.sh`.
@@ -15,7 +15,7 @@ Lo usa la tarea programada diaria de Claude. Joel NO revisa antes de publicar: t
 5. Abrir cada PNG y revisarlo visualmente (ortografía, cifras, nada cortado, foto en la cabecera).
 6. Commit + push a `main` (carpeta `AAAA-MM-DD/`). Comprobar que la URL pública responde 200:
    `https://raw.githubusercontent.com/jocovierah3-png/dr-viera-imagenes/main/AAAA-MM-DD/<archivo>.png`
-7. Programar en Metricool (`createScheduledPost`): blogId `7392899`, timezone `America/Guayaquil`, providers `facebook` + `instagram`, `facebookData {"type":"POST"}`, `instagramData {"type":"POST"}`, `autoPublish: true`, `media` = la URL raw. Horas 07:30, 12:30 y 19:00. Si una hora ya pasó, programarla 10 minutos después de ahora. Antes, revisar `getScheduledPosts` del día para no duplicar.
+7. Programar en Metricool como BORRADOR (`createScheduledPost` con `draft: true`), mandar las 3 imágenes y textos a Joel y esperar su sí; al aprobar, `updateScheduledPost` con `draft: false`. Datos: blogId `7392899`, timezone `America/Guayaquil`, providers `facebook` + `instagram`, `facebookData {"type":"POST"}`, `instagramData {"type":"POST"}`, `autoPublish: true`, `media` = la URL raw. Horas 07:30, 12:30 y 19:00. Si una hora ya pasó, programarla 10 minutos después de ahora. Antes, revisar `getScheduledPosts` del día para no duplicar.
 8. Añadir 3 filas a `registro.md`, commit + push.
 9. Enviar a Joel con SendUserMessage un resumen corto para el celular: los 3 temas con hora, hook y fuente, y los enlaces raw de las 3 imágenes. Si algo falló, decir exactamente qué y qué quedó programado.
 
