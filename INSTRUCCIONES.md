@@ -20,6 +20,7 @@ Lo usa la tarea programada diaria de Claude. Desde el 14-oct-2026 Joel APRUEBA c
 9. Enviar a Joel con SendUserMessage un resumen corto para el celular: los 3 temas con hora, hook y fuente, y los enlaces raw de las 3 imágenes. Si algo falló, decir exactamente qué y qué quedó programado.
 
 ## Preferencia de Joel (14-oct-2026)
+- REGLA FIJA (Joel, 14-oct-2026): TODAS las publicaciones deben ser (1) ENTENDIBLES para cualquier persona, (2) con alta probabilidad de viralidad y (3) apelar al «YO»: que quien la vea piense «esto me pasa a mí / a los míos». Modelo: `dias/2026-10-14-acv-v3.py` (espejo con la frase que la gente dice → golpe → cifra a escala humana tipo «estadio lleno de gente de tu edad» → romper la excusa real → señales/acción → salida). Antes de cada imagen: público, barrera («soy joven», «me siento bien»), miedo oculto, momento «esto me pasa», quién la comparte y a quién.
 - Prefiere las imágenes BIEN EXPLICADAS (titular-hook completo, chips de evidencia, preguntas Sí/No o franjas de rangos, gráfico de barras con cifras, «romper la excusa», franja «Lo que ayuda» y pie con límites). NO usar la versión simplificada de «una idea, un número, una acción».
 
 ## Sistema visual (no cambiar)

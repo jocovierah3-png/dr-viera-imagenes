@@ -9,7 +9,7 @@ No repetir tema, hook ni formato. Si un tema reaparece, buscar un ángulo nuevo.
 | 2026-10-13 | 12:30 | [COMPRADOR] Hipertensión no diagnosticada: 58,8 % (n=1,31 M) · Ecuador 45,2 % · mundo 44 % | Liu W, et al. BMJ Public Health 2026;4:e004815. doi:10.1136/bmjph-2025-004815 | 3 barras horizontales; «De cada 10 personas con presión alta, casi 6 no lo saben» | Programado |
 | 2026-10-13 | 19:00 | [ALCANCE] Sueño REM y menor riesgo de 83 enfermedades; <5 h → 37 | Luo J, Liu R, et al. PLOS Med 2026;23(9):e1005213. doi:10.1371/journal.pmed.1005213 | Barras pareadas HR | Programado |
 
-| 2026-10-14 | 07:40 | [MITO] Vitamina C no evita el resfriado (29 estudios, 11.306 personas) | Hemilä H, Chalker E. Cochrane Database Syst Rev 2013;(1):CD000980. doi:10.1002/14651858.CD000980.pub4 | 2 cifras grandes + romper la excusa | Programado |
+| 2026-10-14 | 07:46 | [MITO] Vitamina C no evita el resfriado (29 estudios, 11.306 personas) | Hemilä H, Chalker E. Cochrane Database Syst Rev 2013;(1):CD000980. doi:10.1002/14651858.CD000980.pub4 | 2 cifras grandes + romper la excusa | Programado |
 | 2026-10-14 | 12:30 | [COMPRADOR] Prediabetes: ayunas 100–125 + DPP (riesgo a menos de la mitad) | DPP Research Group. N Engl J Med 2002;346:393-403. doi:10.1056/NEJMoa012512 · CDC/ADA | Franja de rangos | Programado |
 | 2026-10-14 | 19:00 | [ALCANCE] Derrames cerebrales en menores de 55: 34 → 62 por 100.000 (1993–2020) + señales C-B-H-T | Fisher ER, et al. Neurology 2026. doi:10.1212/WNL.0000000000218622 | Antes → después + grid de señales | Programado |
 
