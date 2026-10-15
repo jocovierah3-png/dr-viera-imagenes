@@ -13,6 +13,10 @@ No repetir tema, hook ni formato. Si un tema reaparece, buscar un ángulo nuevo.
 | 2026-10-14 | 12:30 | [COMPRADOR] Prediabetes: ayunas 100–125 + DPP (riesgo a menos de la mitad) | DPP Research Group. N Engl J Med 2002;346:393-403. doi:10.1056/NEJMoa012512 · CDC/ADA | Franja de rangos | Programado |
 | 2026-10-14 | 19:00 | [ALCANCE] Derrames cerebrales en menores de 55: 34 → 62 por 100.000 (1993–2020) + señales C-B-H-T | Fisher ER, et al. Neurology 2026. doi:10.1212/WNL.0000000000218622 | Antes → después + grid de señales | Programado |
 
+| 2026-10-15 | 10:00 | [MITO] Antibióticos y resfriado: no curan antes; adultos 2,6 veces más efectos secundarios | Kenealy T, Arroll B. Cochrane 2025;(11):CD000247. doi:10.1002/14651858.CD000247.pub4 · CDC | Barras 1 vs 2,6 + cuándo ir al médico | Programado (aprobado por Joel) |
+| 2026-10-15 | 12:30 | [COMPRADOR] Colesterol alto: 1 de cada 3 adultos en Ecuador (34,7 %) | STEPS Ecuador 2018 (MSP–INEC–OPS) · CDC · GBD JAMA 2026 | Reunión familiar de 30 personas + preguntas Sí/No | Programado (aprobado por Joel) |
+| 2026-10-15 | 19:00 | [ALCANCE] ¿Normal o lo reviso? Párpado que tiembla | NHS. Twitching eyes and muscles | Causas + normal vs revísalo | Programado (aprobado por Joel) |
+
 ## Propuestos y no usados (pueden usarse con ángulo propio)
 - [COMPRADOR] Placa arterial silenciosa en adultos "sanos" (NEJM 2026, REACT, doi:10.1056/NEJMoa2609059) — no sugerir tamizaje por imagen
 - [ALCANCE] Ansiedad +45 % y depresión +20 % (DALY) 2019–2023 (OMS Global Health Estimates, 2-oct-2026)
