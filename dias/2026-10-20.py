@@ -6,9 +6,9 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'kit'))
 from plantilla import *
 
 S = """<style>
-.mir{font:700 31px/1.3 Manrope;color:var(--g2);margin-top:30px}
+.mir{font:700 31px/1.3 Manrope;color:var(--g2);margin-top:24px}
 h1.k{font:800 62px/1.05 Manrope;letter-spacing:-.03em;margin-top:10px}
-.est{margin-top:26px;background:var(--g1);border-radius:16px;padding:22px 26px}
+.est{margin-top:22px;background:var(--g1);border-radius:16px;padding:22px 26px}
 .est h4{font:800 25px/1.25 Manrope}.est h4 span{color:var(--g2);font-weight:600}
 .ojo{margin-top:22px;font-size:27px}
 .sh{font:800 25px Manrope;margin-top:22px}.sh span{color:var(--g2);font-weight:600}
@@ -16,7 +16,7 @@ h1.k{font:800 62px/1.05 Manrope;letter-spacing:-.03em;margin-top:10px}
 .yn div{display:flex;gap:14px;align-items:center;font:700 25px/1.2 Manrope}
 .yn i{flex:none;width:40px;height:40px;border-radius:10px;background:var(--red);color:#fff;font:800 20px Manrope;font-style:normal;display:flex;align-items:center;justify-content:center}
 .yn.n i{background:var(--navy)}
-.ppl{display:grid;grid-template-columns:repeat(10,1fr);gap:8px 10px;margin-top:14px;padding-top:16px;row-gap:24px}
+.ppl{display:grid;grid-template-columns:repeat(10,1fr);gap:8px 10px;margin-top:14px;padding-top:16px;row-gap:20px}
 .ppl i{display:block;height:38px;border-radius:20px 20px 6px 6px;background:#C9CFD8;position:relative}
 .ppl i:before{content:"";position:absolute;left:50%;top:-17px;width:17px;height:17px;margin-left:-8.5px;border-radius:50%;background:inherit}
 .ppl i.r{background:var(--red)}
@@ -45,9 +45,9 @@ def glucosa(av):
 <div class="est"><h4>Imagina tu oficina o tu barrio: <span>20 adultos</span></h4>
 <div class="ppl">{ppl}</div>
 <div class="mf"><div><b>10</b>nunca se midieron<br>el azúcar en la sangre</div><div><b>7 de 100</b>ya tienen<br>el azúcar alto o diabetes</div></div></div>
-<div class="ojo">Al inicio <b>casi no da síntomas.</b> Cuando aparecen, puede llevar años haciendo daño.</div>
+<div class="ojo">Al inicio <b>casi no da síntomas:</b> solo lo ve un examen.</div>
 <div class="sh">¿Te toca medirte? <span>Si respondes SÍ a una:</span></div>
-<div class="yn n"><div><i>?</i>¿Nunca te lo mediste o no te acuerdas?</div><div><i>?</i>¿Tu papá, mamá o hermanos tienen diabetes?</div><div><i>?</i>¿Tienes sobrepeso o presión alta?</div></div>
+<div class="yn n" style="margin-bottom:12px"><div><i>?</i>¿Nunca te lo mediste o no te acuerdas?</div><div><i>?</i>¿Tu papá, mamá o hermanos tienen diabetes?</div><div><i>?</i>¿Tienes sobrepeso o presión alta?</div></div>
 <div class="help"><div class="ic">✓</div><p><b class="g">Pide una glucosa en ayunas</b> en tu próximo chequeo. <b class="y">Y lleva a tus papás.</b></p></div>
 <div class="foot"><div class="warn"><b>Encuesta poblacional:</b> mide cuántos,<br>no por qué. Es un examen de sangre sencillo<br>en tu centro de salud.</div>
 <div class="ref">MSP–INEC–OPS. Encuesta STEPS<br>Ecuador 2018 · Resumen ejecutivo<br>salud.gob.ec<br><b>DR. VIERA · SALUD PARA TODOS</b></div></div></div>"""
