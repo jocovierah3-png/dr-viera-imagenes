@@ -17,10 +17,13 @@ No repetir tema, hook ni formato. Si un tema reaparece, buscar un ángulo nuevo.
 | 2026-10-15 | 12:30 | [COMPRADOR] Colesterol alto: 1 de cada 3 adultos en Ecuador (34,7 %) | STEPS Ecuador 2018 (MSP–INEC–OPS) · CDC · GBD JAMA 2026 | Reunión familiar de 30 personas + preguntas Sí/No | Programado (aprobado por Joel) |
 | 2026-10-15 | 19:00 | [ALCANCE] ¿Normal o lo reviso? Párpado que tiembla | NHS. Twitching eyes and muscles | Causas + normal vs revísalo | Programado (aprobado por Joel) |
 
+
+| 2026-10-20 | 14:00 | [COMPRADOR] Azúcar nunca medida: la mitad de los adultos en Ecuador (50 %); 7,1 % glucosa alta o diabetes | MSP–INEC–OPS. Encuesta STEPS Ecuador 2018 (resumen ejecutivo) | 20 personas + preguntas Sí/No | Programado (aprobado por Joel) |
+| 2026-10-20 | 19:00 | [ALCANCE] ¿Normal o lo reviso? Palpitaciones | NHS. Heart palpitations | Causas + normal vs revísalo + franja 911 | Programado (aprobado por Joel) |
+
 ## Propuestos y no usados (pueden usarse con ángulo propio)
 - [COMPRADOR] Placa arterial silenciosa en adultos "sanos" (NEJM 2026, REACT, doi:10.1056/NEJMoa2609059) — no sugerir tamizaje por imagen
 - [ALCANCE] Ansiedad +45 % y depresión +20 % (DALY) 2019–2023 (OMS Global Health Estimates, 2-oct-2026)
-- [COMPRADOR] Ecuador STEPS: la mitad nunca se midió la glucosa (50 %) / colesterol (47,4 %)
 
 ## No publicar todavía
 - Uñas/cabello con GLP-1 (resumen de congreso, sin abstract oficial)
