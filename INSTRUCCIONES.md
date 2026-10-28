@@ -29,6 +29,8 @@ Lo usa la tarea programada diaria de Claude. Desde el 14-oct-2026 Joel APRUEBA c
 - Con potencial de viralidad: espejo del «YO», solución sencilla que la gente quiera guardar y CTA de moneda social con destinatario concreto («mándaselo a…»).
 - Prefiere temas de soluciones y hábitos (qué sí hacer) sobre temas de miedo o enfermedad. Mantener rigor: evidencia A/B, límites y firma «Médico».
 
+- Instrucción de Joel (28-oct-2026): soluciones, menos problemas, y el enfoque debe ser IMPACTANTE y ESPECÍFICO, no genérico. Cada imagen parte de un dato concreto que sorprenda o alarme (la cifra más fuerte y real del estudio, un caso reconocible, «esto te pasa a ti»), nunca un consejo de salud general tipo «come sano y haz ejercicio». El golpe sale del dato real; después viene la solución concreta. Límite fijo: la urgencia solo sale del dato verificado, sin miedo inventado, culpa ni exageración.
+
 ## Sistema visual (no cambiar)
 - 1080 × 1350 px, fondo blanco. Fuentes: Manrope (texto) + Newsreader (referencias).
 - Paleta: azul marino #102D50, rojo #E92724 (datos/riesgo), amarillo #FFD200 (acento puntual), gris #667085, blanco. Verde solo para beneficio/protección ("Lo que ayuda").
