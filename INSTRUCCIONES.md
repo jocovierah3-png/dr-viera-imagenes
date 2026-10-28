@@ -23,6 +23,12 @@ Lo usa la tarea programada diaria de Claude. Desde el 14-oct-2026 Joel APRUEBA c
 - REGLA FIJA (Joel, 14-oct-2026): TODAS las publicaciones deben ser (1) ENTENDIBLES para cualquier persona, (2) con alta probabilidad de viralidad y (3) apelar al «YO»: que quien la vea piense «esto me pasa a mí / a los míos». Modelo: `dias/2026-10-14-acv-v3.py` (espejo con la frase que la gente dice → golpe → cifra a escala humana tipo «estadio lleno de gente de tu edad» → romper la excusa real → señales/acción → salida). Antes de cada imagen: público, barrera («soy joven», «me siento bien»), miedo oculto, momento «esto me pasa», quién la comparte y a quién.
 - Prefiere las imágenes BIEN EXPLICADAS (titular-hook completo, chips de evidencia, preguntas Sí/No o franjas de rangos, gráfico de barras con cifras, «romper la excusa», franja «Lo que ayuda» y pie con límites). NO usar la versión simplificada de «una idea, un número, una acción».
 
+## Preferencia de Joel (28-oct-2026): más SOLUCIONES, menos problemas
+- Cada imagen debe dar más espacio a la SOLUCIÓN que al problema: titular y cifra planteando el problema en 1 golpe, y el resto (al menos la mitad de la imagen) en qué hacer: 3 pasos concretos, fáciles y que cualquiera pueda hacer hoy, más la franja «Lo que ayuda».
+- Fácil de entender para cualquier persona: frases cortas, lenguaje de mamá, una sola idea por bloque. Menos cifras, riesgos y tecnicismos; solo la cifra que impacta.
+- Con potencial de viralidad: espejo del «YO», solución sencilla que la gente quiera guardar y CTA de moneda social con destinatario concreto («mándaselo a…»).
+- Prefiere temas de soluciones y hábitos (qué sí hacer) sobre temas de miedo o enfermedad. Mantener rigor: evidencia A/B, límites y firma «Médico».
+
 ## Sistema visual (no cambiar)
 - 1080 × 1350 px, fondo blanco. Fuentes: Manrope (texto) + Newsreader (referencias).
 - Paleta: azul marino #102D50, rojo #E92724 (datos/riesgo), amarillo #FFD200 (acento puntual), gris #667085, blanco. Verde solo para beneficio/protección ("Lo que ayuda").
