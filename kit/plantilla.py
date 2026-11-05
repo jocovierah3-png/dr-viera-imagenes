@@ -87,7 +87,7 @@ def render(jobs,outdir):
     outdir=pathlib.Path(outdir); outdir.mkdir(parents=True,exist_ok=True)
     chk="(()=>{const w=document.querySelector('.wrap');const f=document.querySelector('.foot').getBoundingClientRect();return {scroll:w.scrollHeight,foot:Math.round(f.bottom)}})()"
     with sync_playwright() as p:
-        b=p.chromium.launch(); pg=b.new_page(viewport={'width':1080,'height':1350})
+        b=p.chromium.launch(executable_path='/opt/pw-browsers/chromium') if __import__('os').path.exists('/opt/pw-browsers/chromium') else p.chromium.launch(); pg=b.new_page(viewport={'width':1080,'height':1350})
         for name,fn in jobs.items():
             pg.set_content(page(fn(AV),FONTS)); pg.wait_for_timeout(500)
             m=pg.evaluate(chk); ok=m['scroll']<=1350 and m['foot']<=1330
