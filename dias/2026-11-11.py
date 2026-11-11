@@ -1,7 +1,10 @@
 # 11-nov-2026 · Modelo acv-v3, enfoque soluciones.
 # 07:30 [MITO] «Le di dulce y se puso como loco.» Wolraich ML, Wilson DB, White JW. JAMA 1995;274(20):1617-1621. doi:10.1001/jama.1995.03530200053037 (metaanálisis de experimentos doble ciego con placebo: el azúcar no afectó conducta ni rendimiento cognitivo). Hoover DW, Milich R. J Abnorm Child Psychol 1994;22(4):501-515 (35 niños de 5-7 años; todos recibieron endulzante sin azúcar; las madres que creían que era azúcar los calificaron más hiperactivos).
 # 12:30 [COMPRADOR] «Orino normal; mis riñones están bien.» GBD Chronic Kidney Disease Collaboration. Lancet 2020;395(10225):709-733. doi:10.1016/S0140-6736(20)30045-3 (2017: 697,5 millones con enfermedad renal crónica; prevalencia 9,1 %). CDC. Chronic Kidney Disease in the United States, 2023 (hasta 9 de cada 10 adultos con la enfermedad no lo saben; EE. UU.).
-# 19:00 [ALCANCE] «Entre semana no tengo tiempo; solo el fútbol del sábado.» O'Donovan G, Lee IM, Hamer M, Stamatakis E. JAMA Intern Med 2017;177(3):335-342. doi:10.1001/jamainternmed.2016.8014 (63.591 adultos de 40+ en Inglaterra y Escocia; muerte por cualquier causa vs inactivos: fin de semana HR 0,70 (0,60-0,82); regularmente activos HR 0,65). Observacional.
+# CAMBIO de Joel (11-nov): se quedan azúcar (07:30), testosterona (12:30) y lácteos (19:00).
+# 12:30 [COMPRADOR] «Ando cansado, sin ganas: será la edad.» Marriott RJ, et al. Lancet Healthy Longev 2026;7(6):100857 (metaanálisis de datos individuales; 10 estudios con 24.510 hombres + 1 con 1.535; muerte por cáncer Q1 vs Q5 HR 1,18 (1,04-1,34); sin relación entre testosterona natural y cáncer de próstata). DOI no verificado (thelancet.com bloqueado). Umbral 8,6 nmol/L solo por prensa: no se usa.
+# 19:00 [ALCANCE] «La leche entera engorda; mejor descremada.» Anderson GH, et al. J Nutr 2026;156(4):101373. doi:10.1016/j.tjnut.2026.101373 (ensayo al azar, 74 adultos con sobrepeso, 12 semanas, 3 porciones diarias de lácteos enteros sin empeorar peso, grasa corporal ni colesterol). Dehghan M, et al. Lancet 2018;392:2287-2298. doi:10.1016/S0140-6736(18)31812-9 (PURE: 136.384 personas, 21 países; más de 2 porciones/día vs nada: muerte HR 0,83 (0,72-0,96); observacional).
+# (Descartados por Joel) 19:00 [ALCANCE] «Entre semana no tengo tiempo; solo el fútbol del sábado.» O'Donovan G, Lee IM, Hamer M, Stamatakis E. JAMA Intern Med 2017;177(3):335-342. doi:10.1001/jamainternmed.2016.8014 (63.591 adultos de 40+ en Inglaterra y Escocia; muerte por cualquier causa vs inactivos: fin de semana HR 0,70 (0,60-0,82); regularmente activos HR 0,65). Observacional.
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'kit'))
 from plantilla import *
@@ -60,10 +63,42 @@ def finde(av):
 <div class="foot"><div class="warn"><b>Estudio observacional:</b> asociación, no causa. Inglaterra y Escocia. Moverte varios días sigue siendo lo mejor.</div>
 <div class="ref">O'Donovan G, et al.<br>JAMA Intern Med 2017;177(3):335-342<br>doi:10.1001/jamainternmed.2016.8014<br><b>DR. VIERA · SALUD PARA TODOS</b></div></div></div>"""
 
+def testo(av):
+    def row(lbl, sub, n, pct, col):
+        return f'<div class="b2"><div class="w">{lbl}<small>{sub}</small></div><div class="t"><div style="width:{pct}%;background:var({col})"></div></div><div class="n" style="font-size:46px;white-space:nowrap">{n}<small>muertes por cáncer</small></div></div>'
+    return f"""{S}<div class="wrap">{head(av,'ESTUDIO NUEVO','r')}
+<div class="mir">«Ando cansado y sin ganas: será la edad.»</div>
+<h1 class="k">Testosterona muy baja:<br><em>18 % más</em> riesgo de<br>morir de cáncer.</h1>
+<div class="src" style="margin-top:22px"><span class="chip"><i>Lancet Healthy Longev</i> 2026</span><span class="chip">más de 26.000 hombres · 11 estudios</span><span class="chip r">observacional</span></div>
+<div class="est"><h4>Hombres con testosterona más alta vs la más baja <span>(por cada 100)</span></h4>
+{row('La más alta','1 de cada 5','100',85,'--grn')}{row('La más baja','1 de cada 5','118',100,'--red')}
+<div class="note" style="margin-top:10px">Y un alivio: la testosterona natural <b style="color:var(--navy)">no se relacionó</b> con cáncer de próstata.</div></div>
+<div class="sh">¿Te pasa alguna? <span>Coméntalo en tu próximo control:</span></div>
+<div class="qq" style="margin-top:8px"><div><b>SÍ / NO</b>Cansancio que no se va</div><div><b>SÍ / NO</b>Menos deseo sexual</div><div><b>SÍ / NO</b>Pierdes músculo</div><div><b>SÍ / NO</b>Barriga o diabetes</div></div>
+<div class="yn" style="margin-top:12px;margin-bottom:18px"><div><i>1</i>El examen se pide en la mañana, con tu médico</div><div><i>2</i>No compres testosterona ni «potenciadores» por tu cuenta</div></div>
+<div class="help"><div class="ic">✓</div><p><b class="g">No es para alarmarse: es para revisarse.</b> <b class="y">Mándaselo a tu papá, a tu pareja o a tu hermano.</b></p></div>
+<div class="foot"><div class="warn"><b>Asociación, no causa:</b> la testosterona baja puede ser señal de otra enfermedad. No se probó que ponerla baje el riesgo.</div>
+<div class="ref">Marriott RJ, et al.<br>Lancet Healthy Longev 2026;7(6):100857<br><b>DR. VIERA · SALUD PARA TODOS</b></div></div></div>"""
+
+def lacteos(av):
+    return f"""{S}<div class="wrap">{head(av,'MITO vs REALIDAD')}
+<div class="mir">«La leche entera engorda; mejor todo descremado.»</div>
+<h1 class="k">3 lácteos <em>enteros</em> al día<br>por 12 semanas: no subieron<br>el peso ni el colesterol.</h1>
+<div class="src" style="margin-top:22px"><span class="chip"><i>J Nutr</i> 2026</span><span class="chip">ensayo al azar · 74 adultos con sobrepeso</span><span class="chip r">+ <i style="font-size:21px">Lancet</i> 2018: 136.384</span></div>
+<div class="est"><h4>Lo que dicen 2 estudios</h4>
+<div class="cmp"><div class="gg"><b class="big">Sin cambio</b>Peso, grasa del cuerpo y colesterol con 3 porciones diarias de lácteos enteros</div><div class="rr"><b class="big" style="color:var(--grn)">83 de 100</b>Muertes en quienes comían más de 2 porciones al día vs 100 sin lácteos (21 países)</div></div></div>
+<div class="sh">Entonces, ¿qué hago? <span>Lácteos, sí, pero así:</span></div>
+<div class="yn"><div><i>1</i>Elige leche, yogur natural o queso fresco, sin azúcar</div><div><i>2</i>Porción: 1 vaso, 1 yogur o 1 tajada de queso</div><div><i>3</i>Si tu médico te indicó descremada, sigue su consejo</div></div>
+<div class="help"><div class="ic">✓</div><p><b class="g">Entera o descremada: lo clave es que sea sin azúcar.</b> <b class="y">Mándaselo a quien toma todo «light».</b></p></div>
+<div class="foot"><div class="warn"><b>Ensayo pequeño y corto;</b> el de 21 países es observacional (asociación, no causa). Yogur azucarado y bebidas lácteas no cuentan.</div>
+<div class="ref">Anderson GH, et al. J Nutr 2026;156(4):101373<br>doi:10.1016/j.tjnut.2026.101373 · Dehghan M,<br>et al. Lancet 2018 · doi:10.1016/S0140-6736(18)31812-9<br><b>DR. VIERA · SALUD PARA TODOS</b></div></div></div>"""
+
 JOBS = {
     'dr-viera-0730-azucar-ninos-hiperactivos': azucar,
     'dr-viera-1230-rinones-dos-examenes': rinon,
     'dr-viera-1900-ejercicio-fin-de-semana': finde,
+    'dr-viera-1230-testosterona-baja-cancer': testo,
+    'dr-viera-1900-lacteos-enteros': lacteos,
 }
 if __name__ == '__main__':
     render(JOBS, pathlib.Path(__file__).resolve().parents[1] / '2026-11-11')
